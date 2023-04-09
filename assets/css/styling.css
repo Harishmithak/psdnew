@@ -1,0 +1,327 @@
+@font-face {
+    font-family: Srikanth;
+    src: url(/assets/fonts/00819\ Regular.ttf);
+}
+.banner{
+    background-image: url(/assets/images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbtn{
+    border: none;
+    background-color: #aab33c;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.icard{
+    margin-top: 90px; height: 200px;
+}
+
+.nav-link{
+    font-family: 'Quicksand', sans-serif;
+
+}
+#thebest{
+    font-family: Srikanth;    
+    color: #aab33c;
+}
+.mnlbl{
+    font-family: 'Quicksand', sans-serif;
+color: #ffffff;
+}
+.mnbtn{
+    background-color: #aab33c;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+
+    border: none;
+}
+.mc{
+font-size: 13px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+}
+.card{
+    background-color: rgba(170, 179, 60,0.3);
+    border: none;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
+.subcardp{
+    font-weight: 700;
+    font-size: smaller;
+}
+span{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.bg-custom {
+    background-color: #aab33c;
+}
+
+#tablehead {
+    background-color: #aab33c;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+#tablesubhead {
+    font-size: 10px;
+}
+
+.textp {
+    width: 157px;
+    height: 27px;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+}
+
+th {
+    height: 15px;
+}
+
+.table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#price {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(170, 179, 59, 0.3);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.tblep {
+    white-space: pre-line;
+    font-weight: 100;
+    font-size: xx-small;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/* for the plan prices  */
+#pp{
+    color: #aab33c;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tableend{
+    white-space: pre-line;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;}
+
+
+.ss{
+    background-image: url("/assets/images/sect5.png");
+}
+
+/* z-index */
+.flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    flex: 1;
+    height: 100px;
+  }
+  
+  .order-1 {
+    order: 1;
+  }
+  
+  .order-2 {
+    order: 2;
+  }
+  /* .footer{
+    background-image: url(/assets/images/footerbg.png);
+    font-family: 'Quicksand', sans-serif;
+
+  }
+  .fc{
+font-size: xx-small;
+  }
+  .fas{
+    color: #aab33c;
+  }
+  .ftabtus{
+    font-size: xx-small;
+  }
+.ftform{
+    width: 2rem;
+} */
+
+#layer7 {
+    height: 272px;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+#sublayer7 {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -20px;
+
+}
+
+#layer7 .card {
+    width: 250px;
+    height: 50px;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: -20px;
+    z-index: 1;
+
+}
+
+#layer7 .card img {
+    width: 21%;
+    height: 100%;
+}
+
+#layer7 .card-text {
+    padding-top: 2px;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+
+#layer8 {
+    height: 170px;
+    width: 100%;
+
+}
+
+#layer8content {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#layer8div {
+    width: 100%;
+}
+
+
+
+#layer8button {
+    background-color: #aab33c;
+    color: #ffffff;
+    border: none;
+    width: 233px;
+    height: 50px;
+    margin-left: 500px;
+
+}
+
+
+#footer {
+    background-image: url('/assets/images/footerbg.png');
+   
+}
+
+#footerhead {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#footercon {
+
+    font-size: 14px;
+    line-height: 22px;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+    white-space: pre-line;
+}
+
+#footerrow1 a{
+
+    font-size: 10px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+    text-decoration: none;
+}
+
+#footerform input,#footerform form{
+    border: none;
+    white-space: pre-line;
+}
+
+#footerformbutton{
+    background-color: #aab33c;
+    border: none;
+    color: #ffffff;
+    width: 109px;
+    height:43px;
+}
+
+@media screen and (max-width:1024px) {
+    #layer7 {
+        height: 800px;
+        margin-top: 30px;
+        position: relative;
+    
+    }
+    
+    #layer7 .card {
+        width: 250px;
+        height: 50px;
+        flex-direction: row;
+        margin-left: 60px;
+        margin-top: -30px;
+    
+    }
+    
+    #layer7 .card img {
+        width: 21%;
+        height: 100%;
+    }
+    
+    #layer7 .card-text {
+        padding-top: 2px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    #layer8button {
+        background-color: #aab33c;
+        color: #ffffff;
+        border: none;
+        width: 133px;
+        height: 50px;
+        margin-left: 200px;
+    
+    }
+
+    
+    
+    
+}
