@@ -14,6 +14,12 @@
     font-family: 'Quicksand', sans-serif;
 
 }
+button{
+    background-color: #aab33c;
+    border: none;
+    color: beige;
+
+}
 .icard{
     margin-top: 90px; height: 200px;
 }
@@ -54,6 +60,10 @@ p{
 .subcardp{
     font-weight: 700;
     font-size: smaller;
+}
+.s3{
+    background-color: #fdffe9;
+
 }
 span{
     font-family: 'Quicksand', sans-serif;
@@ -184,6 +194,9 @@ font-size: xx-small;
     margin-top: -20px;
 
 }
+.l7c{
+    background-color: #fdffe9;
+}
 
 #layer7 .card {
     width: 250px;
@@ -229,10 +242,8 @@ font-size: xx-small;
     background-color: #aab33c;
     color: #ffffff;
     border: none;
-    width: 233px;
-    height: 50px;
-    margin-left: 500px;
-
+   
+ 
 }
 
 
