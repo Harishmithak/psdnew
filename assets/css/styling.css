@@ -72,6 +72,11 @@ span{
 .bg-custom {
     background-color: #aab33c;
 }
+.s5b{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+
+}
 
 #tablehead {
     background-color: #aab33c;
@@ -121,7 +126,9 @@ th {
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: rgb(255, 255, 255);
 }
-
+.table-striped tbody td:nth-of-type(odd) {
+    box-shadow: -5px 0 5px -5px #333, 7px 0 7px -7px #313030;
+}
 .tblep {
     white-space: pre-line;
     font-weight: 100;
@@ -138,6 +145,7 @@ th {
 
 #tableend{
     white-space: pre-line;
+    font-size: smaller;
     font-family: 'Quicksand', sans-serif;
     font-weight: 800;}
 
@@ -163,23 +171,32 @@ th {
   .order-2 {
     order: 2;
   }
-  /* .footer{
-    background-image: url(/assets/images/footerbg.png);
-    font-family: 'Quicksand', sans-serif;
 
-  }
-  .fc{
-font-size: xx-small;
-  }
-  .fas{
-    color: #aab33c;
-  }
-  .ftabtus{
-    font-size: xx-small;
-  }
-.ftform{
-    width: 2rem;
-} */
+#rectanglebox {
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 380px;
+}
+
+#fifteen {
+    position: absolute;
+    font-size: 45px;
+    margin-top: 395px;
+    margin-left: -35px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#years {
+    position: absolute;
+    margin-top: 406px;
+    font-size: 16px;
+    width: 20px;
+    line-height: 22px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
 
 #layer7 {
     height: 272px;
@@ -194,30 +211,51 @@ font-size: xx-small;
     margin-top: -20px;
 
 }
+.ip {
+    font-size: smaller;
+}
+
+
+.ic {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fdffe9;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+    font-size: xx-small;
+}
+
 .l7c{
     background-color: #fdffe9;
 }
-
-#layer7 .card {
-    width: 250px;
+#layer7 .card{
+    width: 850px;
     height: 50px;
     flex-direction: row;
     margin-left: 60px;
-    margin-top: -20px;
-    z-index: 1;
+    margin-top: -30px;
+    background-color: #fdffe9;
 
 }
 
+
 #layer7 .card img {
-    width: 21%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
 }
 
 #layer7 .card-text {
     padding-top: 2px;
     font-size: 12px;
     line-height: 10px;
+
 }
+
 
 
 #layer8 {
@@ -245,58 +283,58 @@ font-size: xx-small;
    
  
 }
+.ftfs{
+    color: #aab33c;
+}
+
 
 
 #footer {
     background-image: url('/assets/images/footerbg.png');
-   
+
 }
-
-#footerhead {
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #404142;
-    font-weight: 700;
-    font-family: "Quicksand";
-}
-
-#footercon {
-
-    font-size: 14px;
-    line-height: 22px;
-    color: #404142;
-    font-weight: 400;
-    font-family: "Quicksand";
-    white-space: pre-line;
-}
-
-#footerrow1 a{
-
-    font-size: 10px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #404142;
-    font-weight: 400;
-    font-family: "Quicksand";
-    text-decoration: none;
-}
-
-#footerform input,#footerform form{
-    border: none;
-    white-space: pre-line;
-}
-
-#footerformbutton{
+.ftfa{
     background-color: #aab33c;
+    color: beige;
+    
+}
+input{
     border: none;
-    color: #ffffff;
-    width: 109px;
-    height:43px;
 }
 
-@media screen and (max-width:1024px) {
+.link{
+    font-size: x-small;
+    text-decoration:none;
+    color: rgb(99, 97, 97);
+}
+.ftp{
+    font-size: x-small;
+    text-decoration:none;
+}
+.submit{
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+}
+.copyrightft{
+    background-color: #aab33c;
+}
+.cpr{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+@media screen and (max-width:1023px) {
+    .navbar-collapse{
+        position: absolute;
+        z-index: 1;
+        margin-top: 380px;
+        
+    }
+    #fifteen,#years,#rectanglebox{
+        display: none;
+    }
     #layer7 {
-        height: 800px;
+        
         margin-top: 30px;
         position: relative;
     
@@ -306,14 +344,14 @@ font-size: xx-small;
         width: 250px;
         height: 50px;
         flex-direction: row;
-        margin-left: 60px;
+        margin-left: 23px;
         margin-top: -30px;
     
     }
     
     #layer7 .card img {
-        width: 21%;
-        height: 100%;
+        width: 50px;
+        height: 50px;
     }
     
     #layer7 .card-text {
@@ -330,9 +368,110 @@ font-size: xx-small;
         height: 50px;
         margin-left: 200px;
     
+        
+    }
+ 
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    .navbar-collapse{
+        position: absolute;
+        z-index: 1;
+        margin-top: 380px;
+        margin-left: 290px;
+    }
+    
+    #pp,#fifteen,#years,#rectanglebox,#design,#computer,#phone{
+        display: none;
     }
 
-    
-    
-    
+    #layer7 {
+        height: 550px;
+        margin-top: 30px;
+        position: relative;
+       
+        
+    }
+    .layer7{
+        margin-left: -100px;
+    }
+
+    .l7img{
+        margin-left:200px;
+        height: 150px;
+        width: 205px;
+    }
+
+    #layer7 .card {
+        width: 180px;
+        height: 40px;
+        flex-direction: row;
+        margin-left: 212px;
+        margin-top: -20px;
+    }
+
+    #layer7 .card-text {
+        padding-top: 2px;
+        font-size: 7px;
+        line-height: 10px;
+     
+    }
+    #layer7 .card img {
+        width: 30px;
+        height: 40px;
+    }
+    .links{
+        font-size: xx-small;
+    }
+    #links{
+        width: 200px;
+    }
+    .form{
+        white-space: pre-line;
+    }
 }
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #computer,#phone{
+        display: none;
+    }
+    #sect3{
+        justify-content: center;
+    }
+    #layer7 {
+        height: 200px;
+        margin-top: 30px;
+        position: relative;
+        margin-left: -190px;
+    }
+
+    .l7img{
+        margin-left:200px;
+        height: 150px;
+        width: 205px;
+    }
+
+    #layer7 .card {
+        width: 180px;
+        height: 40px;
+        flex-direction: row;
+        margin-left: 212px;
+        margin-top: -20px;
+    }
+
+    #layer7 .card-text {
+        padding-top: 2px;
+        font-size: 7px;
+        line-height: 10px;
+     
+    }
+    #layer7 .card img {
+        width: 30px;
+        height: 40px;
+    }
+
+    .form{
+        white-space: pre-line;
+    }
+}
+
+
