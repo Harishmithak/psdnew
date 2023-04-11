@@ -137,7 +137,7 @@ th {
 
 }
 
-/* for the plan prices  */
+
 #pp{
     color: #aab33c;
     font-family: 'Quicksand', sans-serif;
@@ -151,10 +151,9 @@ th {
 
 
 .ss{
-    background-image: url("/assets/images/sect5.png");
+    background-image: url("/assets/images/Rectangle\ 32\ copy\ \(2\).png");
 }
 
-/* z-index */
 .flex-container {
     display: flex;
   }
@@ -274,7 +273,9 @@ th {
     width: 100%;
 }
 
-
+tr:nth-child(even) {
+    background-color: rgba(170, 179, 60, 0.302);
+}
 
 #layer8button {
     background-color: #aab33c;
@@ -287,9 +288,11 @@ th {
     color: #aab33c;
 }
 
+#btn5{
+    background-color: #aab33c;
+}
 
-
-#footer {
+#sectionfooter {
     background-image: url('/assets/images/footerbg.png');
 
 }
@@ -452,6 +455,7 @@ input{
         white-space: pre-line;
     }
 }
+
 
 @media screen and (min-width:768px) and (max-width:1023px) {
     #computer,#phone{
