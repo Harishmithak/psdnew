@@ -1,7 +1,5 @@
-// validation 
-
 $(document).ready(function () {
-    $("#form1").validate({
+    $(".vali").validate({
     rules: {
         'name': {
             required: true,
