@@ -322,6 +322,16 @@ input{
     font-family: 'Quicksand', sans-serif;
 
 }
+@media screen and (min-width:1024px) {
+    #layer7 .card {
+        width: 240px;
+        height: 50px;
+        flex-direction: row;
+        margin-left: 60px;
+        margin-top: -30px;
+    
+    }
+}
 
 @media screen and (max-width:1023px) {
     .navbar-collapse{
@@ -373,6 +383,10 @@ input{
  
 }
 @media screen and (min-width:320px) and (max-width:767px) {
+   #logo{
+    height: 30px;
+    width: 70px;
+   }
     .navbar-collapse{
         position: absolute;
         z-index: 1;
@@ -383,6 +397,15 @@ input{
     #pp,#fifteen,#years,#rectanglebox,#design,#computer,#phone{
         display: none;
     }
+    .navbar-collapse{
+        margin-left: 0px;
+    }
+
+    .nav-link{
+    font-size: xx-small;
+    }
+
+    
 
     #layer7 {
         height: 550px;
@@ -396,7 +419,7 @@ input{
     }
 
     .l7img{
-        margin-left:200px;
+        margin-left: 140px;
         height: 150px;
         width: 205px;
     }
@@ -405,7 +428,7 @@ input{
         width: 180px;
         height: 40px;
         flex-direction: row;
-        margin-left: 212px;
+        margin-left: 152px;
         margin-top: -20px;
     }
 
